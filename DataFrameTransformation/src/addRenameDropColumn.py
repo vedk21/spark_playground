@@ -12,7 +12,7 @@ if __name__ == '__main__':
   # Create SparkSession
   spark = (SparkSession
     .builder
-    .appName('ProjectionsAndFilters')
+    .appName('AddRenameDropColumn')
     .getOrCreate())
 
   # Input data file path
